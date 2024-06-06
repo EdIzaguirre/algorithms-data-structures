@@ -14,7 +14,7 @@ A repository I am making to implement common algorithms and data structures from
 - Output: Sorted array
 - Runtime: $O(n \log n)$ (average) or $O(n^2)$ (worst case), depends on pivot choice. 
 
-## Breadth_First_Search
+## Breadth-First Search
 - Searches through a graph for a particular node. Starts with an initial node, and works radially outward until desired node is found (if present).
 - Input: Graph and initial node
 - Output: True if desired node is found. False otherwise
