@@ -10,7 +10,7 @@ def quicksort(arr):
 
         less_arr = [element for element in arr if element < pivot]
 
-        middle = [x for x in arr if x == pivot]
+        middle = [element for element in arr if element == pivot]
 
         greater_arr = [element for element in arr if element > pivot]
 
