@@ -16,7 +16,7 @@ A repository I am making to implement common algorithms and data structures from
 - Runtime: $O(n \log n)$ (average) or $O(n^2)$ (worst case), depends on pivot choice. 
 
 ### Merge Sort
-- Takes an unsorted array and sorts it by picking a pivot (in this case middle value) and recursively sorting the lower and upper halves of the array. 
+- Takes an unsorted array and sorts it by recursively splitting it in half until you have single elements, then recursively sorting pairs of lists, until you achieve a sorted list.
 - Input: Unsorted array
 - Output: Sorted array
 - Runtime: $O(n \log n)$
